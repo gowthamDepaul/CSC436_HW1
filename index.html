@@ -1,15 +1,19 @@
 <!DOCTYPE html>
 <html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     <h3>Javascript Basics</h3>
-	<button onclick="renderReversedElements()">
+	<button onclick="renderReversedElements()" button type="button" class="btn btn-primary">
 	
         Reverse
     </button>	
-    <button onclick="cleanAndCountCharacters()">
+    <button onclick="cleanAndCountCharacters()" button type="button" class="btn btn-info">
 	
         clean and count words
     </button>
-	<button onclick="toggleDisplay()">
+	<button onclick="toggleDisplay()" button type="button" class="btn btn-info">
 	
         Toggle Display
     </button>
@@ -256,27 +260,7 @@
   
   var y = document.getElementById('rootContainer1');
 		y.style.display="none";
-	//	clearDocument();
-		//chicagoStartups.forEach( function(chicagoStartup, index) {
-		/*
-        var rootDiv = document.createElement('div');
-        rootDiv.id = 'rootContainer3';
-        var companyNamesContainer = document.createElement('div');
-        chicagoStartups.forEach( function(chicagoStartup, index) {
-            var childDiv = document.createElement('div');
-			var str=chicagoStartup.replace(/[^a-zA-Z ]/g, "");
-            var text = document.createTextNode(index.toString().concat(' .) ').concat(str).concat(" "+str.length));
-            childDiv.appendChild(text);
-            companyNamesContainer.appendChild(childDiv);
-        });
-        rootDiv.appendChild(companyNamesContainer);
-        document.body.appendChild(rootDiv);*/
-       // });
-        /*
-            TODO: REMOVES ANY SPECIAL CHARACTERS FROM EACH COMPANY NAME AND
-              DISPLAYS THE NUMBER OF REMAINING CHARACTERS NEXT TO THE FULL WORD.
-              DONT FORGET TO REMOVE LEADING AND TRAILING WHITESPACES AS WELL
-        */
+	
 
     }
     
