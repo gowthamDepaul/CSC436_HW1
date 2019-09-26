@@ -6,3 +6,4 @@ Logging Changes
 3)Included Reverse button functionality to process the exsisting list instead of using a new list
 4)Included code changes to toggle display
 5)Auto triggered final function
+6)Added Bootstrap to implement colour for the buttons
